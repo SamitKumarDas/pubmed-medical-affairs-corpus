@@ -23,7 +23,7 @@ The dataset was generated programmatically using the NCBI E-utilities API:
 ## Dataset
 - The full derived dataset exceeds GitHub file size limits and is therefore hosted externally.
 - Google drive link(full dataset) -> https://drive.google.com/file/d/1s4w0PXJPPkyd-RRtgHQWa9gjGJFRAugo/view?usp=drive_link
-  Contains: PMID, title, abstract, year, journal, layer
+  [Contains: PMID, title, abstract, year, journal, layer]
 - The dataset is derived from publicly available PubMed abstracts accessed via NCBI E-utilities.
 
 ## Reproducibility
@@ -32,3 +32,4 @@ To recreate the dataset:
 ```bash
 pip install -r requirements.txt
 python src/build_pubmed_corpus.py
+
