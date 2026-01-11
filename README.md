@@ -1,7 +1,7 @@
 # PubMed Medical Affairs 3-Layer Corpus (Topic 2 – MS Thesis)
 
 ## Overview
-This repository contains a reproducible pipeline to construct a biomedical literature corpus from PubMed and a derived dataset used for MS thesis topic submission.
+This repository contains a reproducible pipeline to construct a biomedical literature corpus from PubMed and a derived dataset that wil be used for MS thesis topic submission.
 
 The corpus is designed to represent three Medical Affairs-relevant engagement layers:
 - L1: Scientific engagement (mechanism, efficacy, biomarkers, RWE)
@@ -33,5 +33,6 @@ To recreate the dataset:
 ```bash
 pip install -r requirements.txt
 python src/build_pubmed_corpus.py
+
 
 
