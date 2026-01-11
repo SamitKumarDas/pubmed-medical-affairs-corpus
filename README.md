@@ -32,7 +32,8 @@ To recreate the dataset:
 
 ```bash
 pip install -r requirements.txt
-python src/build_pubmed_corpus.py
+python src/build_pubmed_corpus.ipynb
+
 
 
 
